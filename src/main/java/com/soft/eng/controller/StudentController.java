@@ -15,6 +15,11 @@ import java.util.List;
 @RequestMapping("/api/v1")
 public class StudentController {
 
+    /**
+     * @Controller StudentController as RestController
+     *
+     */
+
     private final NamedParameterJdbcTemplate jdbcTemplate;
 
     public StudentController(NamedParameterJdbcTemplate jdbcTemplate){
